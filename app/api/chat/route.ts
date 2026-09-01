@@ -1,4 +1,4 @@
-import { streamText, tool, appendResponseMessages } from 'ai';
+import { streamText, tool } from 'ai';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
 import { createOpenAI } from '@ai-sdk/openai';
 import { z } from 'zod';
